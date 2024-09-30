@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AccessmentTraining
+namespace AssessmentTraining
 {
     internal class Matrix
     {
@@ -30,7 +30,7 @@ namespace AccessmentTraining
                     tmpVal++;
                 }
             }
-            Console.WriteLine(original);
+            Console.WriteLine("Original matrix in a sequence: " + original);
         }
 
         public void OrderResultInSpiral()

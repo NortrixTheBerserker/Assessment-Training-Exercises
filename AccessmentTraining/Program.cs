@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AccessmentTraining
+namespace AssessmentTraining
 {
     internal class Program
     {
@@ -57,7 +57,7 @@ namespace AccessmentTraining
             {
                 Matrix values = new Matrix(nLines, nCols);
                 values.OrderResultInSpiral();
-                Console.WriteLine(values.result.ToString());
+                Console.WriteLine("Resulting string of spiral read: " + values.result.ToString());
             }
             else
             {
